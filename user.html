@@ -1,0 +1,11 @@
+(% extends "base.html" %)
+
+(% block title %) user (% endblock %)
+
+(% block content %)
+
+<h1>This is the user page</h1> {#this is the comment for template} {% if username == "Harry" %}
+<h2>Hello professor</h2> {% else %}
+<h2>Hello Student</h2> {% endif %}
+
+( %endblock% )
